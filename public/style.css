@@ -1,0 +1,65 @@
+/* Utility Class  */
+
+.orange{
+    color: #ff7400 !important;
+}
+
+.bg-orange{
+    background-color: #ff7400 !important;
+}
+
+section{
+    min-height:80vh;
+}
+
+/* Navbar  */
+
+
+.logo{
+    width: 200px;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: #ff7400 !important;
+}
+
+.active{
+    color: #ff7400 !important;
+}
+
+#home{
+    background-color: #f4f8ff ;
+    padding: 50px 0;
+}
+
+.featurette-image{
+    width: 500px;
+}
+
+@media screen and (max-width:600px) {
+    .about-img{
+        float: none !important;
+    }
+}
+
+/* Tool-kit  */
+.toolkit-img{
+    width: 200px;
+}
+
+.card-box{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card-img{
+    width: 15rem;
+}
+
+/* Post Page  */
+#post-container{
+    min-height: 80vh;
+}

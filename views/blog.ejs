@@ -1,0 +1,20 @@
+<%- include('partials/header.ejs') %>
+    <!-- Blog -->
+    <section id="blog" class="container mt-3">
+         <% Blogs.forEach( (blog) => { %> 
+      <div class="card col-md-10 blog p-3 mb-3">
+      <a href="/blogs/<%= blog._id %>" class="card-title h2 text-dark"> <%=blog.title%> </a>
+
+        <div class="card-subtitle text-muted mb-2"><%=blog.createdAt.toLocaleDateString()%></div>
+        <p class="card-text mb-2">
+            <%=blog.description%>
+        </p>
+      </div>
+      <% })%> 
+      
+    </div>
+    </section> 
+    
+    
+    
+<%- include('partials/footer.ejs') %>
